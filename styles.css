@@ -8,11 +8,12 @@ html.body {
 }
 
 .head {
+    background-image: url(Pictures/roses.jpeg);
     padding:0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     text-align: left;
-    color: salmon;
+    color: saddlebrown;
     
 }
 
@@ -46,7 +47,7 @@ html.body {
 }
 
 .image {
-   
+    border-radius: 60%;
     width: 350px;
     height:500px;
     border: solid 8px rosybrown;
