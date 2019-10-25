@@ -5,72 +5,53 @@ html.body {
 
 * {
     box-sizing: border-box;
-}
-linkedin-2-xl.png
-.head {
-    background-image: url(Pictures/roses.jpeg);
-    padding:0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    text-align: left;
-    color: saddlebrown;
-    
-}
-
-.h1 {
-    background-image: url(Pictures/roses.jpeg);
-    padding:0;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: left;
-    color: sienna;
-}
-
-.h2 {
-    padding:0;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-align: center;
-    color: sienna ;
 
 }
 
 .style1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    padding: 20px;
-    font-size: 15px;
-    color: saddlebrown;
-    font-style: normal;
-    background-color: tan;
-    text-decoration: none;
-}
-
-.image {
-    border-radius: 60%;
-    width: 350px;
-    height:500px;
-    border: solid 8px rosybrown;
-    
-}
-
-
-.page2 {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    background-color: tan;
-    padding: 0;
-    
+    grid-template-columns:1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;;
+    color: #550618;
+    font-style: normal;
+    background-color: #7b9e87;
+    text-decoration: none;
+
 }
 
+.square {
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(Pictures/my_logo.png);
 
-.para {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    text-align: center;
-    color: saddlebrown;
 }
 
+.col1 {
+    font-size: 15px;
+    font-weight: bold;;
+    color: #550618;
+    font-style: normal;
+}
+
+.col2 {
+    font-size: 15px;
+    font-weight: bold;;
+    color: #550618;
+    font-style: normal;
+}
+
+.row3 {
+    font-size: 15px;
+    font-weight: bold;;
+    color: #550618;
+    font-style: normal;
+
+}
 .head1 {
 
     padding:0;
@@ -79,3 +60,113 @@ linkedin-2-xl.png
     text-align: left;
     color: saddlebrown;
 }
+.footer1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 8px;
+    font-size: 15px;
+    color: saddlebrown;
+    font-style: normal;
+    background-color: #618985;
+    text-decoration: none;
+}
+
+.fnav {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    color: saddlebrown;
+    font-style: normal;
+    background-color: #618985;
+    text-decoration: none;
+}
+
+.cover1 {
+    background-color: #efebce;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.page1 {
+    background-image: url(Pictures/roses.jpeg);
+    border-block-end-style: solid;
+    color: saddlebrown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+
+    
+}
+.h3 {
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color:saddlebrown;
+}
+
+.contact {
+    background-color: tan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+.contact1 {
+    background-image: url(Pictures/roses.jpeg);
+    border-block-end-style: solid;
+    color: saddlebrown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rosybrown;
+    color: saddlebrown;
+    padding: 12px 20px;
+    border: solid;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:rosybrown;
+    
+    
+  }
+  
+  .container {
+    background-color: tan;
+    padding: 10px;
+    color: saddlebrown;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 50%;
+      margin-top: 0;
+
+    }
+  }
